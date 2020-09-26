@@ -18,8 +18,8 @@ d3.csv(dataURL).then(function(data) {
         var State_abbr_name_single = name.State_abbr_name;
         var Production_US_Share_single = name.Production_US_Share;
 
-        var string2014 = Coal_Consumption_2014_all_sectors_thousand_tons_single.toFixed(2);
-        var string2018= Coal_Consumption_2018_all_sectors_thousand_tons_single.toFixed(2);
+        var string2014 = parseFloat(Coal_Consumption_2014_all_sectors_thousand_tons_single).toFixed(2);
+        var string2018 = parseFloat(Coal_Consumption_2018_all_sectors_thousand_tons_single).toFixed(2);
 
         Coal_Consumption_2014_all_sectors_thousand_tons.push(string2014);
         Coal_Consumption_2018_all_sectors_thousand_tons.push(string2018);
