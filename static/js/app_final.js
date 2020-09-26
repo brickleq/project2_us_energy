@@ -6,7 +6,7 @@ var stateAbbr = [];
 
 var dataURL = "static/data/US_Consumption_Production_Data.csv";
 
-d3.json(dataURL).then(function(data) {
+d3.csv(dataURL).then(function(data) {
 
     // var stateLowerArray = []
 
