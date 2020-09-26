@@ -4,7 +4,7 @@ var Production_US_Share = [];
 var State_lower_name = [];
 var stateAbbr = [];
 
-var dataURL = "http://127.0.0.1:5000/api/v1.0/USProductionConsumption";
+var dataURL = "../data/USProductionConsumption.csv";
 
 d3.json(dataURL).then(function(data) {
 
