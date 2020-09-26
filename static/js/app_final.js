@@ -4,7 +4,7 @@ var Production_US_Share = [];
 var State_lower_name = [];
 var stateAbbr = [];
 
-var dataURL = "../static/data/USProductionConsumption.csv";
+var dataURL = "static/data/US_Consumption_Production_Data.csv";
 
 d3.json(dataURL).then(function(data) {
 
